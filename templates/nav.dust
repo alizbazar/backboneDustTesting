@@ -1,0 +1,11 @@
+<div id="navigation">
+    <ul>
+
+    {#menuItems}
+        <li>
+            <a href="{link}">{name}</a>
+        </li>
+    {/menuItems}
+
+    </ul>
+</div>

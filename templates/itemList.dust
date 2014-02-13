@@ -1,0 +1,14 @@
+<div class="container">
+    
+    Here are the items in question:
+
+    <div class="itemContainer">
+    {#items}
+        <div class="item">
+            <h3>{itemName}</h3>
+            <p>{itemDescription}</p>
+        </div>
+    {/items}
+    </div>
+
+</div>
